@@ -1,0 +1,61 @@
+body{
+    background-color: $color-fondo;
+}
+textarea{
+    width: 100%;
+}
+
+strong{
+    color: $blanco;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+
+    &:hover{
+        color: $blanco;
+    }
+}
+
+h1:hover{
+    color: $color-primario;
+}
+
+.nav-link{
+    &:hover{
+        color: $blanco;
+    }
+}
+
+.texto{
+    &-presentacion{
+        background-color: $gris;
+        padding: 15px;
+        border-radius: 20px;
+        color: $color-secundario;
+    }
+    
+}
+
+.sub-header{
+    border-radius: 20px;
+}
+
+.oscuro{
+    background-color: $color-secundario;
+}
+
+.claro{
+    color: $color-primario	;
+}
+
+.margen{
+    margin-left: 20px;
+}
+
+.puntas{
+    border-radius: 3%;
+}

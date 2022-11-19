@@ -1,0 +1,62 @@
+.noticia{
+    &-imagen{
+    height: auto;
+    width: 115%;
+    border: 2px solid $gris;
+    border-radius: 20px;
+    overflow: auto;
+    margin-right: 20px;
+}
+
+    &-rapida{
+    height: auto;
+    width: 100%;
+    border: 2px solid $gris;
+    border-radius: 20px;
+    overflow: auto;
+    }
+
+    &-vertical{
+        height: 35%;
+    }
+}
+
+.articulo{
+    height: 150px;
+
+    &-texto{
+        height: 90%;
+    }
+
+    @include pantalla-grande{
+        height: 200px;
+    }
+
+    &-grande{
+        @include pantalla-grande{
+            height: 280px;
+        }
+    }
+}
+
+.imagen{
+    &-presentacion{
+    height: 180px;
+    @include pantalla-grande{
+        height: 400px;
+    }
+    }
+    &-noticion{
+        @include pantalla-grande{
+            height: 200px;
+            width: 100%;
+            border: 2px solid $gris;
+            border-radius: 20px;
+            overflow: auto;
+            }
+        }
+}
+
+.titulo{
+    color: $blanco;
+}

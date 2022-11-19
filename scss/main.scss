@@ -1,0 +1,14 @@
+@import "./utils/variables";
+@import"./utils/mixin";
+
+@import"./base/reset";
+@import"./base/base";
+@import"./base/tipografia";
+
+@import"./components/botones";
+@import"./components/ruleta";
+@import"./components/tarjetas";
+@import"./components/media.scss";
+
+@import"./pages/noticias";
+@import"./pages/noticias";

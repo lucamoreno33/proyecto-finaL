@@ -1,0 +1,5 @@
+@mixin pantalla-grande {
+    @media (min-width: 992px){
+        @content
+    }
+}
